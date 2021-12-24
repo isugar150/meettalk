@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/meettalk/static/css/main.4a9139b4.css",
-    "main.js": "/meettalk/static/js/main.a332ae25.js",
+    "main.js": "/meettalk/static/js/main.e5341002.js",
     "static/js/377.9e469038.chunk.js": "/meettalk/static/js/377.9e469038.chunk.js",
     "index.html": "/meettalk/index.html",
     "main.4a9139b4.css.map": "/meettalk/static/css/main.4a9139b4.css.map",
-    "main.a332ae25.js.map": "/meettalk/static/js/main.a332ae25.js.map",
+    "main.e5341002.js.map": "/meettalk/static/js/main.e5341002.js.map",
     "377.9e469038.chunk.js.map": "/meettalk/static/js/377.9e469038.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a9139b4.css",
-    "static/js/main.a332ae25.js"
+    "static/js/main.e5341002.js"
   ]
 }
