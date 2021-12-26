@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/meettalk/static/css/main.a26c22ef.css",
-    "main.js": "/meettalk/static/js/main.0f28dd84.js",
+    "main.js": "/meettalk/static/js/main.41813337.js",
     "static/js/377.9e469038.chunk.js": "/meettalk/static/js/377.9e469038.chunk.js",
     "static/media/NotoSansKR-Bold.otf": "/meettalk/static/media/NotoSansKR-Bold.29abf35d525346faa333.otf",
     "static/media/NotoSansKR-Regular.otf": "/meettalk/static/media/NotoSansKR-Regular.457762eaaf7bb2aa2893.otf",
@@ -17,11 +17,11 @@
     "static/media/NotoSansKR-Thin.woff": "/meettalk/static/media/NotoSansKR-Thin.218e3d0a6976cc6dbfb9.woff",
     "index.html": "/meettalk/index.html",
     "main.a26c22ef.css.map": "/meettalk/static/css/main.a26c22ef.css.map",
-    "main.0f28dd84.js.map": "/meettalk/static/js/main.0f28dd84.js.map",
+    "main.41813337.js.map": "/meettalk/static/js/main.41813337.js.map",
     "377.9e469038.chunk.js.map": "/meettalk/static/js/377.9e469038.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a26c22ef.css",
-    "static/js/main.0f28dd84.js"
+    "static/js/main.41813337.js"
   ]
 }
