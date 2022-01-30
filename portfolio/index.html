@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>김진민 이력서</title>
+    <script src="./resources/jquery-1.12.4.min.js"></script>
+    <script src="./resources/jquery.magnific-popup.min.js?v=1.1.0"></script>
+    <link rel="stylesheet" type="text/css" href="./resources/magnific-popup.css">
+
+    <style>
+        .main-wrapper {
+            background: 0 0;
+            max-width: 800px;
+            width: 100%;
+            margin: 2em auto 4em;
+            padding: 0 3em 3em;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            position: relative;
+        }
+        h2 {
+            font-weight: 700;
+            margin-top: 2em;
+            margin-bottom: 0.3em;
+            border-bottom: 1px solid #DDD;
+            padding-bottom: 0.2em;
+            font-size: 1.8em;
+        }
+        .grid-c {
+            overflow: hidden;
+            margin: 0 -1em;
+            clear: both;
+        }
+        .grid-c .gc3:nth-of-type(2n+1) {
+            clear: left;
+        }
+        .example {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .gc3 {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 50%;
+            float: left;
+            padding: 1em;
+            overflow: hidden;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.popup-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function(item) {
+                        return item.el.attr('title') + '<small>by 김진민</small>';
+                    }
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="main-wrapper">
+        <h2>개인 프로젝트</h2>
+        <div class="grid-c">
+            <div class="example gc3">
+                <h3>문서변환 서버</h3>
+                <p>Socket으로 통신하여 오피스파일(docx, doc, xlsx, xls, pptx, ppt), 한글파일(hwp), 기타 파일(pdf, txt, html)등 여러 파일을 PDF로 변환하거나 이미지 파일(jpg, png, bmp)로 변환합니다.</p>
+                <div class="html-code grid-of-images">
+                    <div class="popup-gallery">
+                        <a href="./문서변환%20서버%20메인.png" title="문서변환 서버 메인"><img src="./문서변환%20서버%20메인.png" width="75" height="75"></a>
+                        <a href="./문서변환%20서버%20xlsx.png" title="문서변환 서버 xlsx"><img src="./문서변환%20서버%20xlsx.png" width="75" height="75"></a>
+                        <a href="./문서변환%20결과물%20xlsx1.png" title="문서변환 결과물 xlsx"><img src="./문서변환%20결과물%20xlsx1.png" width="75" height="75"></a>
+                        <a href="./문서변환%20결과물%20xlsx2.png" title="문서변환 결과물 xlsx"><img src="./문서변환%20결과물%20xlsx2.png" width="75" height="75"></a>
+                        <a href="./문서변환%20결과물%20hwp.png" title="문서변환 결과물 hwp"><img src="./문서변환%20결과물%20hwp.png" width="75" height="75"></a>
+                        <a href="./문서변환%20결과물%20hwp1.png" title="문서변환 결과물 hwp"><img src="./문서변환%20결과물%20hwp1.png" width="75" height="75"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="example gc3">
+                <h3>MeetTalk Web Project</h3>
+                <p>React 공부중 만들어 봤으며 실제 페이지를 보고싶으면 <a href="https://isugar150.github.io/meettalk/" target="_blank">여기</a>를 클릭하세요. 계정과 암호는 없고 바로 다음버튼을 누르면 넘어갑니다. </p>
+                <div class="html-code grid-of-images">
+                    <div class="popup-gallery">
+                        <a href="./MWP1.png" title="로그인 페이지"><img src="./MWP1.png" width="75" height="75"></a>
+                        <a href="./MWP2.png" title="메인 페이지"><img src="./MWP2.png" width="75" height="75"></a>
+                        <a href="./MWP3.png" title="프로필 상세 페이지"><img src="./MWP3.png" width="75" height="75"></a>
+                        <a href="./MWP4.png" title="채팅방 목록 페이지"><img src="./MWP4.png" width="75" height="75"></a>
+                        <a href="./MWP5.png" title="채팅방 페이지"><img src="./MWP5.png" width="75" height="75"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>위미츠 프로젝트</h2>
+        <div class="grid-c">
+            <div class="example gc3">
+                <h3>톡 관리 페이지</h3>
+                <p>메시지 발송 통계 / 푸시 발송 통계 / 기타 기능</p>
+                <div class="html-code grid-of-images">
+                    <div class="popup-gallery">
+                        <a href="./메시지%20발송통계%20그래프.png" title="메시지 발송 통계 그래프"><img src="./메시지%20발송통계%20그래프.png" width="75" height="75"></a>
+                        <a href="./메시지%20발송%20통계.png" title="메시지 발송 통계"><img src="./메시지%20발송%20통계.png" width="75" height="75"></a>
+                        <a href="./메시지%20발송통계%20사용자별.png" title="메시지 발송 통계 사용자별"><img src="./메시지%20발송통계%20사용자별.png" width="75" height="75"></a>
+                        <a href="./메시지%20발송통계%20사용자별%20사용자%20선택.png" title="메시지 발송 통계 사용자별 사용자가 중복되면 선택하게끔.."><img src="./메시지%20발송통계%20사용자별%20사용자%20선택.png" width="75" height="75"></a>
+                        <a href="./푸시%20발송%20통계%20그래프.png" title="푸시 발송 통계 그래프"><img src="./푸시%20발송%20통계%20그래프.png" width="75" height="75"></a>
+                        <a href="./원격%20로그레벨%20설정.png" title="웹에서 톡서버/푸시서버의 로그레벨을 원격으로 조정할 수 있음."><img src="./원격%20로그레벨%20설정.png" width="75" height="75"></a>
+                        <a href="./파일%20전송%20확장자%20추가%20및%20파일전송%20최대용량제한%20기능개발.png" title="톡에서 전송할 최대 파일 사이즈 및 확장자를 설정할수있음."><img src="./파일%20전송%20확장자%20추가%20및%20파일전송%20최대용량제한%20기능개발.png" width="75" height="75"></a>
+                        <a href="./웹뷰1.png" title="특정 고객사 요청으로 채팅방을 웹으로 구현."><img src="./웹뷰1.png" width="75" height="75"></a>
+                        <a href="./웹뷰2.png" title="특정 고객사 요청으로 채팅방을 웹으로 구현."><img src="./웹뷰2.png" width="75" height="75"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="example gc3">
+                <h3>행안부 바로톡</h3>
+                <p>GPKI, 모바일공무원증 연동 및 게시판 기능</p>
+                <div class="html-code grid-of-images">
+                    <div class="popup-gallery">
+                        <a href="./GPKI연동.png" title="GPKI(공무원 인증서) 연동"><img src="./GPKI연동.png" width="75" height="75"></a>
+                        <a href="./모바일%20공무원증%20로그인.png" title="모바일 공무원증 로그인"><img src="./모바일%20공무원증%20로그인.png" width="75" height="75"></a>
+                        <a href="./공지사항%20게시글.png" title="질문하기 게시글"><img src="./공지사항%20게시글.png" width="75" height="75"></a>
+                        <a href="./공지사항%20게시글%20상세.png" title="공지사항 게시글 상세"><img src="공지사항%20게시글%20상세.png" width="75" height="75"></a>
+                        <a href="./질문하기%20게시글.png" title="질문하기 게시글"><img src="./질문하기%20게시글.png" width="75" height="75"></a>
+                        <a href="./질문하기%20게시글%20상세.png" title="질문하기 게시글 상세"><img src="./질문하기%20게시글%20상세.png" width="75" height="75"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
